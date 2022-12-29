@@ -1,6 +1,7 @@
 {
 	"name": "svelte-chat",
 	"version": "0.0.1",
+	"type": "module",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
@@ -35,5 +36,8 @@
 		"vite": "^4.0.0",
 		"vitest": "^0.25.3"
 	},
-	"type": "module"
+	"dependencies": {
+		"@auth/core": "^0.2.3",
+		"@auth/sveltekit": "^0.1.10"
+	}
 }
